@@ -1,0 +1,2 @@
+C:\Users\lucas\source\repos\FirstGame\x64\Debug\FirstGame.exe.lastcodeanalysissucceeded
+C:\Users\lucas\source\repos\FirstGame\x64\Debug\Temp\NativeCodeAnalysis.read.1.tlog

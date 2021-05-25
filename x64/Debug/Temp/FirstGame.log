@@ -1,0 +1,17 @@
+﻿  DeathScreen.c
+  DrawDebugInfo.c
+  ExitYesNoScreen.c
+  GamepadUnpluggedScreen.c
+  OpeningSplashScreen.c
+  OptionsScreen.c
+  Overworld.c
+  TitleScreen.c
+  TransitionScreen.c
+  main.c
+C:\Users\lucas\source\repos\FirstGame\main.c(607,26): warning C4033: 'LoadWorldMap' must return a value
+  Running Code Analysis for C/C++...
+  Generating Code...
+C:\Users\lucas\source\repos\FirstGame\main.c(634): warning C4715: 'LoadWorldMap': not all control paths return a value
+  FirstGame.vcxproj -> C:\Users\lucas\source\repos\FirstGame\x64\Debug\FirstGame.exe
+C:\Users\lucas\source\repos\FirstGame\main.c(514): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\lucas\source\repos\FirstGame\main.c(558): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).

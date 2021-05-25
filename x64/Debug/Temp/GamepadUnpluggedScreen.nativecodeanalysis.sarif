@@ -1,0 +1,119 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29913.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00F8B1C0 -il C:\\Users\\lucas\\AppData\\Local\\Temp\\_CL_cc1db036ast -typedil -f GamepadUnpluggedScreen.c -W 1 -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829913 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -nologo -Wall -W4 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_MBCS -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -clrNoPureCRT -D_DEBUG -D_MT -GS -D_M_FP_PRECISE -FoC:\\Users\\lucas\\source\\repos\\FirstGame\\x64\\Debug\\Temp\\GamepadUnpluggedScreen.obj -FdC:\\Users\\lucas\\source\\repos\\FirstGame\\x64\\Debug\\Temp\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\lucas\\source\\repos\\FirstGame -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\AllRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\lucas\\source\\repos\\FirstGame\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/lucas/source/repos/FirstGame/main.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "853c8f941215df1aa28eebd9872ff5cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/lucas/source/repos/firstgame/main.h"
+          },
+          "hashes": {
+            "md5": "d63543ddccd1486db783af0ba9503b1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/lucas/source/repos/firstgame/menus.h"
+          },
+          "hashes": {
+            "md5": "425736d27fccd30653c5cfa43dcd25ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/lucas/source/repos/firstgame/transitionscreen.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a7cb45b6c6b51a73820c97dba82077e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/lucas/source/repos/firstgame/titlescreen.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "613db6f918cbc1574427dba94a45f303"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/lucas/source/repos/firstgame/overworld.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "c8f16932031657a57343b69caee8d8ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/lucas/source/repos/firstgame/optionsscreen.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "3d7329582bc336dc3d0b4485848a42da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/lucas/source/repos/firstgame/openingsplashscreen.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "404d8dfc899891c037e5d6b0246b888b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/lucas/source/repos/firstgame/gamepadunpluggedscreen.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "f6ebb600edafd840659fc3961534b882"
+          }
+        }
+      ]
+    }
+  ]
+}
